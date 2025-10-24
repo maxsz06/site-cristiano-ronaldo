@@ -1,0 +1,86 @@
+:root{
+    --primary-color:#ffff;
+    --seconday-color:#0000;
+}
+
+body {
+    background-color: #f2f2f2;
+    padding: 0;
+    margin: 0;
+  }
+  
+  header {
+    background-color: #ffff;
+    color: white;
+    padding: 0;
+    height: 168px;
+    text-align: center;
+    display: flex;                /* coloca as imagens em linha */
+    justify-content: space-between;      /* centraliza horizontalmente */
+    align-items: center;          /* centraliza verticalmente */
+    gap: 20px;                    /* espaço entre elas */
+    padding: 20px;
+  }
+
+.caixaone{
+
+    width: 245px;         /* largura */
+    height: 55px;        /* altura */
+    background-color: black; /* cor do quadrado */
+    border-radius: 50px;  /* opcional: deixa as bordas arredondadas */
+  }
+
+
+.caixatwo{
+
+    width: 245px;         /* largura */
+    height: 55px;        /* altura */
+    background-color: black; /* cor do quadrado */
+    border-radius: 50px;  /* opcional: deixa as bordas arredondadas */
+
+}
+
+.fotoone{
+
+    width: 150px;
+    position: absolute;
+    top: 55px;
+    left: 65vh;
+}
+
+.fototwo{
+
+    width: 50px;
+    position: absolute;
+    top: 65px;
+    right: 7vh;
+}
+
+.perfil{
+
+    width: 50px;
+    position: absolute;
+    top: 70px;
+    right: 14vh;
+
+}
+
+.caixaone,.caixatwo{
+
+    padding: 15px 25px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+  main {
+    background-color: black; /* fundo da área principal */
+    padding: 37vh;
+  }
+
+  footer{
+
+    height: 88px;
+
+  }
+
+  
