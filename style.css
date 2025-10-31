@@ -28,6 +28,8 @@ body {
     height: 40px;        /* altura */
     background-color: black; /* cor do quadrado */
     border-radius: 50px;  /* opcional: deixa as bordas arredondadas */
+    display: flex;
+    justify-content: center;
   }
 
 
@@ -37,15 +39,16 @@ body {
     height: 40px;        /* altura */
     background-color: black; /* cor do quadrado */
     border-radius: 50px;  /* opcional: deixa as bordas arredondadas */
-
+    display: flex;
+    justify-content: center;
 }
 
 .fotoone{
 
     width: 150px;
     position: absolute;
-    top: 55px;
-    left: 65vh;
+    left: 47%;
+
 }
 
 .fototwo{
@@ -77,23 +80,95 @@ body {
 
 font-size: 20px;
 font-family: preconnect, sans-serif;
+justify-content: center;
+align-items: center;
+display: flex;
+
+}
+
+
+  main {
+    background-color: black; /* fundo da área principal */
+    padding: 6.0vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .cr7principal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+  }
+  
+  .texto{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 250px;
+    color: white;
+    z-index: 1; /* menor número = fica atrás */
+    font-family: "Righteous", sans-serif;
+
+  }
+
+
+
+  footer{
+
+    height: 10vh;
+    justify-content: left;
+    align-items: center;
+    display: flex;
+    gap: 5px;
+  }
+
+  .escudos{
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 80px;
+    height: auto;
+    gap: 20px;
+  }
+
+  /* TABLET */
+@media (max-width: 1024px)  {
+
+
+main{
+
+width: 100vh;
+padding: 12vh;
+
+}
+
+.escudos{
+
+  width: 65px;
+}
+
+
+.texto{
+
+  font-size: 185px;
+
+}
+
+.cr7principal{
+
+  display: flex;
+  align-items: center;
+  justify-content: ;
+
+}
+  
 
 
 
 
 }
-
-
-
-  main {
-    background-color: black; /* fundo da área principal */
-    padding: 37vh;
-  }
-
-  footer{
-
-    height: 88px;
-
-  }
-
-  
